@@ -1,3 +1,12 @@
+span.alpha {
+	
+	display: inline-block;
+    width: 200px;
+    height: 25px;
+    padding: 5px;        
+    background-color: #80ffd0;
+	
+}
 
 body {
 
@@ -87,4 +96,23 @@ nav {
 	
     background-color: #80ffd0;
 	
+}
+
+#centertext {
+	
+	text-align: center;
+	
+}
+
+table, td, th {
+    border: 5px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
 }
