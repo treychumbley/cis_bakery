@@ -5,33 +5,79 @@
 <head>
 <meta charset="utf-8">
 
-<link rel="stylesheet" type="text/css" href="css/index_style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/litera/bootstrap.min.css">
 
 <title>CIS Bakery</title>
  
 </head>
 
-<body>
-<header>
-<h1>CIS Bakery</h1>
-<img src="images/logo.png" alt="CIS Bakery Logo" class="center"/>
-</header>
-<h2 id="centertext">Index</h2>
-	<nav>
-		<ul>
-				<li><span class = "alpha"><a href="bakery_items.html">Bakery Items</a></span></li>
-				<li><span class = "alpha"><a href="about_page.html">About Page</a></span></li>
-				<li><span class = "alpha"><a href="order_page.html">Order Now</a></span></li>
-				<li><span class = "alpha"><a href="baking_classes.html">Baking Classes</a></span></li>
-				<li><span class = "alpha"><a href="gallery.html">Photo Gallery</a></span></li>
-				<li><span class = "alpha"><a href="employee_page.html">Employee Page</a></span></li>
-				<li><span class = "alpha"><a href="store_locations.html">Store Locations</a></span></li>
-				<li><span class = "alpha"><a href="fundraising.html">Fundraising</a></span></li>
-				<li><span class = "alpha"><a href="order_form.html">Place Your Order Now</a></span></li>
-		</ul>
-	</nav>
+<body class="p-3 mb-2 badge-dark text-white">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">CIS Bakery</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Our Bakers
+			 </a>
+			 <div class="dropdown-menu" aria-lavelledby="navbarDropdown">
+            <a class="dropdown-item" href="about_page.html">Founders</a>
+			<a class="dropdown-item" href="employee_page.html">Employee Page</a>
+			</div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="store_locations.html">Store Locations</a>
+          </li>
+
+		  <li>
+			<a class="nav-link" href="baking_classes.html">Baking Classes</a>
+			</li>
+		  
+		  <li>
+			<a class="nav-link" href="fundraising.html">Fundraising</a>
+			</li>
+		  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products and Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="bakery_items.html">Bakery Items</a>
+              <a class="dropdown-item" href="gallery.html">Photo Gallery</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="order_page.html">Order Now</a>
+			  <a class="dropdown-item" href="order_form.html">Place Your Order Now</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+<header>
+<div class="card text-white bg-success mb-3" style="max-width:29rem;">
+<div class="card-body">
+<h4 class="card-title">Your local bakery</h4>
+<p>Welcome to the</p>
+<img src="images/logo.png" alt="CIS Bakery Logo"/>
+</header>
 
 	<footer>&copy; 2018 &phone; 123-456-7890</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
