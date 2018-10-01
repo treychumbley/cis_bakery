@@ -4,64 +4,101 @@
 <!--Trey page: Order Page-->
 
 <head>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/litera/bootstrap.min.css">
 
 <title>CIS Bakery</title>
 </head>
-<body>
+<body class="p-3 mb-2 bg-secondary text-white"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">CIS_Bakery</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about_us.html">Our Founders</a>
+			  <a class="dropdown-item" href="employee_page.html">Employee Page</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="store_locations.html">Store Locations</a>
+          </li>
+
+		   <li class="nav-item">
+            <a class="nav-link" href="fundraising.html">Fundraising</a>
+          </li>
+		  
+		  <li class="nav-item">
+		  <a class="nav-link" href="baking_classes.html">Baking Classes</a>
+		  </li>
+		  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Our Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="bakery_items.html">Bakery Items</a>
+			  <a class="dropdown-item" href="gallery.html">Photo Gallery</a>
+              <a class="dropdown-item" href="#">Our Menu<span class="sr-only">(current)</span></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="order_form.html">Place Your Order Here!</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
 <header>
-<img src="images/logo.png" alt="CIS Bakery Logo" class="center"/>
-<h1>CIS Bakery</h1>
+<div class="card text-white bg-success mb-3" style="max-width: 29rem;">
+<div class="card-header">Welcome to your local</div>
+<div class="card body">
+<p><img src="images/logo.png" alt="CIS Bakery Logo"/></p>
+</div>
+</div>
 </header>
-<div class="dropdown">
-	<button class="dropbtn">Navigation</button>
-	<div class="dropdown-content">
-	
-				<a href="index.html">Home Page</a>
-				<a href="bakery_items.html">Bakery Items</a>
-				<a href="about_page.html">About Page</a>
-				<a href="order_page.html">Order Now</a>
-				<a href="baking_classes.html">Baking Classes</a>
-				<a href="gallery.html">Photo Gallery</a>
-				<a href="employee_page.html">Employee Page</a>
-				<a href="store_locations.html">Store Locations</a>
-				<a href="fundraising.html">Fundraising</a>
-			    <a href="order_form.html">Place Your Order</a>
-				
-			</div>
-		</div>
 <h2>Order Now</h2>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>Picture</th>
-<th>Price</th>
-<th>In stock</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cake</td>
-<td><img src="images/cake.png" alt="Cake Picture"/></td>
-<td>$10.00</td>
-<td>7</td>
-</tr>
-<tr>
-<td>Cookies</td>
-<td><img src="images/cookies.png" alt="Cookie Picture"/></td>
-<td>$2.50</td>
-<td>75</td>
-</tr>
-<tr>
-<td>Cupcakes</td>
-<td><img src="images/cupcake.png" alt="Cup Cake Picture"/></td>
-<td>$4.50</td>
-<td>35</td>
-</tr>
+<div class="container">
+	<div class="row">
+		<div class="col">
+<p>Cake</p>
+<p><img src="images/cake.png" alt="Cake Picture"/></p>
+<p>Price $10.00</p>
+<p>Qty 7</p>
+</div>
+
+<div class="col">
+<p>Cookies</p>
+<p><img src="images/cookies.png" alt="Cookie Picture"/></p>
+<p>Price $2.50</p>
+<p>Qty 75</p>
+</div>
+
+<div class="col">
+<p>Cupcakes</p>
+<p><img src="images/cupcake.png" alt="Cup Cake Picture"/></p>
+<p>Price $4.50</p>
+<p>Qty 35</p>
+</div>
+</div>
+</div>
 </tbody>
 </table>
 
@@ -69,5 +106,10 @@
 
 
 <footer>&copy;2018 &phone; 123-456-7890</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
