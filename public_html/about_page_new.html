@@ -10,13 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Main CSS styles for Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="httpsstackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <!-- Optional theme add-on -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sketchy/bootstrap.min.css">
+    <style>
+        .makecenter{
+            text-align:center;
+            border-style: solid;
+            font-size:  26px;
+            }
+            </style>
 </head>
 
+
 <body>
+<div class="container">
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index_page_new.html">CIS Bakery</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,12 +69,16 @@
 <h1>CIS Bakery</h1>
 <img src=" images/musa_logo.png" alt="CIS Bakery Logo"/>
 </header>
-<h2>About Us</h2>
+<div class="  makecenter jumbotron">
+<p>About Us</p>
+</div>
+<div class="mycolor col-12 col-6">
 <p>
     CIS Bakery was founded in August of 2016 by Taia, Trey, and Katelyn. We offer a variety of bakery items such as cakes, cupcakes, and cookies. Each item is crafted with our homemade flour recipe that dates back to 1998. We are located in several different places in Iowa. Check out our store locations page for more information about our current bakery locations. We are open Weekdays 9AM to 6PM and Saturday from 8AM to 4PM.
 
 If you have any questions or inquiries, please give us a call 1-321-456-7890 or reach out to us by email at thecisbakery@school.com
 </p>
+</div>
 
 <ul>
         <li> Monday     9AM-6PM </li>
@@ -93,7 +106,10 @@ Password:<br>
 <input type="text" name="password">
 <button type="button" class="btn btn-danger">Login</button>
 </form>
-
+<div class="alert alert-success" role="alert">
+  <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+</div>
+</div>
 	<footer>&copy; 2018 &phone; 123-456-7890</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
